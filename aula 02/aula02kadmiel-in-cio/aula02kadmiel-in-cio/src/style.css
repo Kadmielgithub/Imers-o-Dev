@@ -1,0 +1,88 @@
+/* Estilo Global */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+}
+  
+/* Estilo logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
+/* Container com a imagem de fundo */
+.container {
+    background: url('https://www.funretrospectives.com/wp-content/uploads/2022/07/funretro-pedra-papel-tesoura-humano.png') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+/* Conteúdo da div para texto e botão */
+.content {
+    text-align: center; /* Alinha o texto no centro */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente escuro */
+    padding: 20px 40px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    width: 80%; /* Define a largura da div */
+    max-width: 600px; /* Limita a largura máxima */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adiciona sombra para destacar */
+    margin: 20px; /* Espaço em volta da div */
+}
+
+/* Estilo dos textos dentro da div .content */
+.content h1 {
+    color: white; /* Cor do título */
+    font-size: 36px; /* Tamanho do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    font-family: 'Arial', sans-serif; /* Tipo de fonte */
+}
+
+/* Estilo dos parágrafos dentro da div .content */
+.content p {
+    color: white; /* Cor do texto */
+    font-size: 18px; /* Tamanho da fonte */
+    margin-bottom: 30px; /* Espaço abaixo do parágrafo */
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+}
+
+/* Estilo dos botões dentro da div .content */
+.content button {
+    background-color: #444; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    border: 2px solid #888; /* Borda sutil */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 05px; /* Espaço acima do botão */
+}
+
+/* Efeito de hover nos botões */
+.content button:hover {
+    background-color: #666; /* Cor de fundo mais clara */
+    border-color: #aaa; /* Borda mais clara */
+    transform: translateY(-2px); /* Levanta o botão ao passar o mouse */
+}
+
+/* Efeito de foco nos botões */
+.content button:focus {
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Brilho ao focar o botão */
+}

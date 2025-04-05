@@ -1,0 +1,110 @@
+body {
+  background: url("https://www.valuehost.com.br/blog/wp-content/uploads/2016/10/linguagens-de-programacao.jpeg.webp") no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.titulo {
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  color: #F2CB05;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.conteudo-jogo {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px #F2C438;
+  margin: 30px;
+  padding: 20px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.questionario {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 70%;
+  max-width: 70%;
+}
+
+.pergunta {
+  font-weight: 600;
+  color: #F2CB05;
+  font-size: 1.2rem;
+}
+
+.progresso {
+  text-align: end;
+  font-size: small;
+  font-weight: 500;
+  color: white;
+}
+
+.respostas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.botao-resposta {
+  width: 100%;
+  height: 2.5rem;
+  text-align: start;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background: #0B2559;
+  color: white;
+  font-weight: bold;
+}
+
+.botao-resposta:hover {
+  background: #2A5159;
+}
+
+.fim {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.fim span {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+
+button {
+  background-color: #F2CB05;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0B2559;
+}
